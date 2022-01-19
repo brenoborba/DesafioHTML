@@ -9,11 +9,10 @@ body{
     font-family: sans-serif;
 }
 
-.header{
-    background-color: grey;
-    text-align: center;
-    padding: 50px 0;
-    font-size: 40px;
+header .header{
+    height: 200px;
+    width: 800px;
+    padding: 100px 400px;
 }
 
 .container{
@@ -22,19 +21,42 @@ body{
 }
 .navbar{
     width: 30%;
-    background: #a3a3a3;
+    background: #ffffff;
     padding: 30px;
 }
+ul{
+    list-style: none;
+}
+.navbar li a{
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(11, 93, 160);
+    padding: 15px 20px;
+    border: 0px hidden;
+    border-radius: 18px 0px 18px 0px;
+    margin-bottom: 10px;
+    color: white;
+    
+}
+
 .content{
     width: 70%;
-    background: #d8d8d8;
+    background: #e6e6e6;
     padding: 30px;
+    border: 0px hidden;
+    border-radius: 40px 0px 0px 0px;
 }
 
 .footer{
-    background-color: grey;
-    text-align: center;
     padding: 20px 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(170, 170, 170);
+    color: white;
+    text-align: center;
 }
 
 img{
